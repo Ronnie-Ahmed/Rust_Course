@@ -1,6 +1,10 @@
 // mod print;
-mod vars;
+// mod vars;
+// mod types;
+mod string_example;
 fn main(){
     // print::run();
-    vars::vars();
+    // vars::vars();
+    // types::run();
+    string_example::run();
 }
