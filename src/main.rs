@@ -4,7 +4,9 @@
 // mod typles;
 // mod string_example;
 // mod array_value;
-mod vector_array;
+// mod vector_array;
+// mod conditionals;
+mod loops;
 fn main(){
     // print::run();
     // vars::vars();
@@ -12,5 +14,7 @@ fn main(){
     // string_example::run();
     // typles::run();
     // array_value::run();
-    vector_array::run();
+    // vector_array::run();
+    // conditionals::run();
+    loops::run();
 }
