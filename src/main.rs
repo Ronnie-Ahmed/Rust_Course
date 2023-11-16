@@ -6,7 +6,12 @@
 // mod array_value;
 // mod vector_array;
 // mod conditionals;
-mod loops;
+// mod loops;
+// mod functions;
+// mod pointer_ref;
+// mod structs_ref;
+mod enums_ref;
+mod cli;
 fn main(){
     // print::run();
     // vars::vars();
@@ -16,5 +21,10 @@ fn main(){
     // array_value::run();
     // vector_array::run();
     // conditionals::run();
-    loops::run();
+    // loops::run();
+    // functions::run();
+    // pointer_ref::run();
+    // structs_ref::run();
+    enums_ref::run();
+    cli::run();
 }
