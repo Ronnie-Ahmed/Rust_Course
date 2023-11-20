@@ -3,6 +3,8 @@ enum Movement{
  Down,Left,Right
 }
 
+
+
 fn move_avater(m:Movement){
  match m{
   Movement::Down=>println!("Moving Down"),
