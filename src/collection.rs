@@ -34,6 +34,10 @@ pub fn run(){
  let ss:String=s.clone();
  println!("Name is : {:?}",s);
 
+ ///////////////
+ /// HashMap////
+ ///////////////
+
  let mut map:HashMap<u32, String>=HashMap::new();
  for i in 1..=100{
   if i%5==0{
@@ -52,6 +56,39 @@ pub fn run(){
  let st:String=String::from("Ronnie");
  let v3=Vec::from(st);
   println!("{:?}",v3);
+
+   let mut v = Vec::from([1, 2, 3]);
+    for i in 0..5 {
+        println!("{:?}", v.get(i))//option
+    }
+
+    for i in 0..5 {
+       // IMPLEMENT the code here...
+       
+       match v.get(i){
+           Some(e)=>v[i]=e+1,
+           None=>v.push(i+2)
+       }
+    }
+    
+    assert_eq!(v, vec![2, 3, 4, 5, 6]);
+
+    println!("Success!");
+
+     let mut scores= HashMap::with_capacity(100);
+    scores.insert("Sunface", 98);
+    scores.insert("Daniel", 95);
+    scores.insert("Ashley", 69.0 as i32);
+    // scores.insert("Katie", "58".parse().);
+    // println!("{:?}"scores.get(&"Katie"));
+    println!("{}",scores["Ashley"]);
+    scores.remove("Ashley");
+    println!("Length is : {}",scores.len());
+    println!("Length is : {}",scores.capacity());
+    scores.shrink_to_fit();
+    println!("Length is : {}",scores.capacity());
+
+
 
 
 
