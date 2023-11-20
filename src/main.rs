@@ -5,7 +5,8 @@
 // mod string_example;
 // mod array_value;
 // mod FIndLArgestNumber;
-mod GenericTypes;
+// mod GenericTypes;
+mod collection;
 // mod vector_array;
 // mod conditionals;
 // mod loops;
@@ -38,5 +39,6 @@ fn main(){
     // enumsV2::run();
     // pattern::run();
     // FIndLArgestNumber::run();
-    GenericTypes::run();
+    // GenericTypes::run();
+    collection::run();
 }
