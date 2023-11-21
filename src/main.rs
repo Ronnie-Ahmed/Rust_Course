@@ -1,3 +1,5 @@
+use iterators::run;
+
 // mod print;
 // mod vars;
 // mod types;
@@ -8,6 +10,7 @@
 // mod GenericTypes;
 // mod types;
 // mod collection;
+mod iterators;
 // mod vector_array;
 // mod conditionals;
 // mod loops;
@@ -27,6 +30,7 @@ fn main(){
     // types::run();
     // string_example::run();
     // typles::run();
+    
     // array_value::run();
     // vector_array::run();
     // conditionals::run();
@@ -44,5 +48,7 @@ fn main(){
     // GenericTypes::run();
     // types::run();
     // collection::run();
-    println!("Hello World");
+    // println!("Hello World");
+    iterators::run();
+
 }
