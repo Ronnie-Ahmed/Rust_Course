@@ -6,7 +6,8 @@
 // mod array_value;
 // mod FIndLArgestNumber;
 // mod GenericTypes;
-mod collection;
+// mod types;
+// mod collection;
 // mod vector_array;
 // mod conditionals;
 // mod loops;
@@ -19,6 +20,7 @@ mod collection;
 // mod structs_ref2;
 // mod enumsV2;
 // mod pattern;
+
 fn main(){
     // print::run();
     // vars::vars();
@@ -40,5 +42,7 @@ fn main(){
     // pattern::run();
     // FIndLArgestNumber::run();
     // GenericTypes::run();
-    collection::run();
+    // types::run();
+    // collection::run();
+    println!("Hello World");
 }

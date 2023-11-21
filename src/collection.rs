@@ -88,6 +88,26 @@ pub fn run(){
     scores.shrink_to_fit();
     println!("Length is : {}",scores.capacity());
 
+    let decimal:f32=97.3364;
+    let integer:i32=decimal as i32;
+    let unsigned_integer:u8=integer as u8;
+    let chat_type:char=unsigned_integer as char;
+    println!("{}",chat_type);
+
+    let testString:String="Ronnie".to_string();
+    let testStr:&str=&testString.as_str();
+    // let owned_string = String::from("Hello, Rust!");
+    // let borrowed_str: &str = owned_string.as_str();
+    // println!("Owned String: {}", owned_string);
+    // println!("Borrowed &str: {}", borrowed_str);
+
+    println!("{}",testString);
+    println!("{}",testStr);
+
+
+    let nu:u32=5.256 as u32;
+   
+
 
 
 
